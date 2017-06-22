@@ -92,4 +92,5 @@ public class avroSerialize {
             System.out.println(AvroRec);
         }
     }
+
 }
