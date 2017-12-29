@@ -1,5 +1,11 @@
 # Apache-Avro
-Apache Avro Serialize and deserialize 
+Apache Avro is a data Serialize and deserialize system.
+
+For Serializing JSON:
+java -jar avro-tools-1.7.5.jar fromjson --schema-file {avscFile} {jsonFile} > {avroFileName}
+
+For Deserializing JSON:
+java -jar avro-tools-1.7.5.jar tojson {avroFileName} 
 
 External Jar:
 1. json-simple-1.1.jar
